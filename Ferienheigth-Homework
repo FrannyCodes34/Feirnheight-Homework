@@ -1,0 +1,22 @@
+function calc(a, b, c){
+    if (c==="+"){
+        console.log(parseInt(a)+parseInt(b))
+    }
+    if (c==="-"){
+        console.log(parseInt(a)+parseInt(b))
+    }
+    if (c==="*"){
+        console.log(parseInt(a)+parseInt(b))
+    }
+    if (c==="/"){
+        console.log(parseInt(a)+parseInt(b))
+    }
+    
+}
+while(choice === 'yes'){
+var a = prompt('Enter a: ');
+var a = prompt('Enter b: ');
+var a = prompt('Enter c: ');
+calc(a, b, c)
+choice = prompt('Would you like to play again?')
+}
